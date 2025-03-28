@@ -1,16 +1,37 @@
-# zypt
+# ZyptoPulse - Cryptocurrency Tracker
 
-A new Flutter project.
+![App Screenshot](https://example.com/screenshot.png)
 
-## Getting Started
+A Flutter application for tracking cryptocurrency prices with real-time updates and favorites management.
 
-This project is a starting point for a Flutter application.
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [API Documentation](#api-documentation)
+- [Authentication](#authentication)
+- [Favorites System](#favorites-system)
+- [Running Tests](#running-tests)
+- [Build Instructions](#build-instructions)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Real-time cryptocurrency price tracking
+- User authentication (JWT)
+- Favorite coins management
+- Dark/Light theme support
+- Responsive design for mobile/tablet
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+### Prerequisites
+- Flutter SDK (>= 3.0.0)
+- Dart SDK (>= 2.17.0)
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/zyptopulse.git
+cd zyptopulse
+
+# Install dependencies
+flutter pub get
