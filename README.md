@@ -33,30 +33,30 @@ A Flutter application for tracking cryptocurrency prices with real-time updates 
 
 
 # Clone the repository
-git clone https://github.com/yourusername/zyptopulse.git
-cd zyptopulse
+- git clone https://github.com/yourusername/zyptopulse.git
+- cd zyptopulse
 
 # Install dependencies
-flutter pub get
+- flutter pub get
 
 # Run the app
-flutter run
-Configuration
-Create a .env file in the root directory:
+- flutter run
+- Configuration
+- Create a .env file in the root directory:
 
 env
 Copy
 # API Configuration
-API_BASE_URL=https://api.fluttercrypto.agpro.co.in
-COINGECKO_API_URL=https://api.coingecko.com/api/v3
+- API_BASE_URL=https://api.fluttercrypto.agpro.co.in
+- COINGECKO_API_URL=https://api.coingecko.com/api/v3
 
 # Auth Configuration
-JWT_SECRET=your_jwt_secret_key
-TOKEN_EXPIRY=3600 # 1 hour in seconds
-API Documentation
-CoinGecko API (Public)
-Endpoint:
-GET /coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1
+- JWT_SECRET=your_jwt_secret_key
+- TOKEN_EXPIRY=3600 # 1 hour in seconds
+- API Documentation
+- CoinGecko API (Public)
+- - Endpoint:
+- GET /coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1
 
 Example Dart Implementation:
 
