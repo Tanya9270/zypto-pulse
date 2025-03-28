@@ -59,29 +59,29 @@ Copy
 - GET /coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1
 
 
-API Interactions
-Adding a Favorite:
+- - API Interactions
+- Adding a Favorite:
 
-dart
-Copy
-await FavoriteService.addFavorite(
-  token: accessToken,
-  cryptoId: 'bitcoin',
-  name: 'Bitcoin',
-  symbol: 'BTC',
-  currentPrice: 42000,
-  imageUrl: 'https://.../bitcoin.png'
-);
-Deleting a Favorite:
+- dart
+- Copy
+- await FavoriteService.addFavorite(
+-   token: accessToken,
+-   cryptoId: 'bitcoin',
+-   name: 'Bitcoin',
+-   symbol: 'BTC',
+-   currentPrice: 42000,
+-   imageUrl: 'https://.../bitcoin.png'
+- );
+- - Deleting a Favorite:
 
-dart
-Copy
-await FavoriteService.deleteFavorite(token, favoriteId);
-Running Tests
-bash
-Copy
-# Run all tests
-flutter test
+- dart
+- Copy
+- await FavoriteService.deleteFavorite(token, favoriteId);
+- Running Tests
+- bash
+- Copy
+- - - # Run all tests
+- flutter test
 
 # Run specific test file
 flutter test test/auth_test.dart
@@ -102,12 +102,12 @@ test('Successful login returns token', () async {
 Build Instructions
 Android:
 
-bash
+bash """
 Copy
 flutter build apk --release
 iOS:
 
-bash
+bash """
 Copy
 flutter build ios --release
 Web:
