@@ -81,7 +81,7 @@ TOKEN_EXPIRY=3600 # 1 hour in seconds
 
 ### API Interactions
 Adding a Favorite
-'''dart
+```dart
 await FavoriteService.addFavorite(
   token: accessToken,
   cryptoId: 'bitcoin',
@@ -90,8 +90,9 @@ await FavoriteService.addFavorite(
   currentPrice: 42000,
   imageUrl: 'https://.../bitcoin.png'
 );
+
 ### Deleting a Favorite
-'''dart
+```dart
 await FavoriteService.deleteFavorite(token, favoriteId);
 #### Authentication
 - JWT Authentication is used for secure access to user-specific features.
