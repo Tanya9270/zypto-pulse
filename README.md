@@ -31,7 +31,7 @@ A Flutter application for tracking cryptocurrency prices with real-time updates 
 - Dart SDK (>= 2.17.0)
 - Android Studio/Xcode (for mobile development)
 
-```bash
+
 # Clone the repository
 git clone https://github.com/yourusername/zyptopulse.git
 cd zyptopulse
