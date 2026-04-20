@@ -42,7 +42,7 @@ flutter run
 Create a `.env` file in the root directory with the following: 
 
 ```env
-# API Configuration
+# API Configuration 
 API_BASE_URL=https://api.fluttercrypto.agpro.co.in
 COINGECKO_API_URL=https://api.coingecko.com/api/v3
 
