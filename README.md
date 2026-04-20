@@ -1,7 +1,7 @@
                              
 # ZyptoPulse - Cryptocurrency Tracker 
 
-A Flutter application for tracking cryptocurrency prices with real-time updates and favorites management. 
+A Flutter application for tracking cryptocurrency prices with real-time updates and favorites management.  
 
 ---
 
