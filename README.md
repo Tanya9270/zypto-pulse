@@ -7,7 +7,7 @@ A Flutter application for tracking cryptocurrency prices with real-time updates 
 
 ## Features
 
-- 📊 Real-time cryptocurrency price tracking  
+- 📊 Real-time cryptocurrency price tracking   
 - 🔐 User authentication (JWT)  
 - ⭐ Favorite coins management  
 - 🌓 Dark/Light theme support  
