@@ -39,7 +39,7 @@ flutter run
 
 ## Configuration and API Integration
 
-Create a `.env` file in the root directory with the following:
+Create a `.env` file in the root directory with the following: 
 
 ```env
 # API Configuration
