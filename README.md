@@ -13,7 +13,7 @@ A Flutter application for tracking cryptocurrency prices with real-time updates 
 - 🌓 Dark/Light theme support  
 - 📱 Responsive design for mobile/tablet  
 
----
+--- 
 
 ## Installation
 
