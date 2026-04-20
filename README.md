@@ -54,7 +54,7 @@ TOKEN_EXPIRY=3600 # 1 hour in seconds
 The application integrates with the CoinGecko API for fetching real-time cryptocurrency data. A sample API endpoint:  
 
 ```text
-GET /coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1
+GET /coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1 
 ```
 
 ---
