@@ -19,7 +19,7 @@ A Flutter application for tracking cryptocurrency prices with real-time updates 
 
 ```bash
 # Prerequisites:
-# Ensure the following are installed on your system:
+# Ensure the following are installed on your system: 
 # - Flutter SDK (>= 3.0.0)
 # - Dart SDK (>= 2.17.0)
 # - Android Studio/Xcode (for mobile development)
